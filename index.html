@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Aplastar Bocchi</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main>
+      <button id="openModal">Jugar</button>
+    </main>
+
+    <div id="modal" class="modal">
+      <div class="modal-content">
+          <span class="close">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="32"
+              height="32"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="black"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              >
+              <path d="M12 21a9 9 0 1 0 0 -18a9 9 0 0 0 0 18" />
+              <path d="M8 12l4 4" />
+              <path d="M8 12h8" />
+              <path d="M12 8l-4 4" />
+            </svg>
+          </span>
+          <h2>Escoge la dificultad: </h2>
+          <nav>
+            <a href="game.html?level=1"><h3>Fácil</h3></a>
+            <a href="game.html?level=2"><h3>Normal</h3></a>
+            <a href="game.html?level=3"><h3>Difícil</h3></a>
+          </nav>        
+      </div>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+</html>
