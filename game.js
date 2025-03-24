@@ -79,8 +79,8 @@ function juego(){
 }
 
 function generarBocchi() {
-    const maxX = contenedor.clientWidth - 100;
-    const maxY = contenedor.clientHeight - 100;
+    const maxX = contenedor.clientWidth - 125;
+    const maxY = contenedor.clientHeight - 125;
 
     const bocchi = document.createElement("img");
     bocchi.src = "Img/bocchi-unscreen.gif";
