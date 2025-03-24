@@ -40,9 +40,10 @@ a{
 }
 
 .bocchi{
-    width: 100px;
-    height: 100px;
+    width: 125px;
+    height: 125px;
     position: absolute;
+    user-select: none;
 }
 
 .informacion{
